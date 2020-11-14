@@ -1,0 +1,19 @@
+*{
+    text-decoration: none;
+}
+
+nav li:nth-child(1):hover{
+    color: lightblue;
+    font-weight: bold;
+}
+nav li:nth-child(2):active{
+   color:blue;
+   font-style: italic;
+}
+nav li:nth-child(3):visited{
+    color: yellow;
+}
+form input:focus{
+    color: green;
+    font-size: 20px;
+}
